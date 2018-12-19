@@ -23,6 +23,8 @@ font-face {
 }
 .navbar {
   display: grid;
+  position: absolute;
+  top: 20px;
   grid-template-columns: 0.5fr repeat(9, 105px) 0.5fr;
   background: linear-gradient(
     to bottom,
@@ -66,7 +68,7 @@ font-face {
 }
 .text{
     color:white;
-    font-family: 'Lucida Grande Regular	', Tahoma, Verdana, Arial, sans-serif;
+    font-family: 'Lucida Grande Regular', Tahoma, Verdana, Arial, sans-serif;
     grid-column: 2/ span 1;
     
     font-weight: 200;
@@ -82,4 +84,9 @@ font-face {
 .subsubtitle{
     font-size: 20px;
     grid-row: 9/span 1;
+}
+
+.ads{
+    grid-template-columns: repeat(4,1fr) );
+ 
 }
