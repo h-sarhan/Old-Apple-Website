@@ -1,18 +1,11 @@
-font-face {
-    font-family: 'lucida_granderegular';
-    src: url('/Media/lucidagrande-webfont.woff2') format('woff2'),
-         url('/Media/lucidagrande-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 .navbar a,
 .navbar a:visited {
   text-decoration: none;
   color: white;
   font-weight: 500;
-  font-family: , "Lucida Grande",Arial, Helvetica, sans-serif;
+  font-family: 'Lato';
   text-align: center;
   text-shadow: 1px 1px black;
   border-right: 1px solid black;
@@ -63,12 +56,13 @@ font-face {
     grid-auto-rows: 1fr;
     justify-content: center;
     justify-items: center;
+    grid-row-gap: 20px;
     
 
 }
 .text{
     color:white;
-    font-family: 'Lucida Grande Regular', Tahoma, Verdana, Arial, sans-serif;
+    font-family:  'Lato';
     grid-column: 2/ span 1;
     
     font-weight: 200;
